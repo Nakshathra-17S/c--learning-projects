@@ -1,0 +1,35 @@
+develpo a program that takes a students marks as input and displays their grade based on the following criteria:
+90 and above:Grade A
+45 to 89:grade B
+60 to 74:grade C
+50 to 59:grade D
+below 50:grade f
+#include<stdio.h>
+int main()
+{
+    int marks;
+    printf("enter the marks");
+    scanf("%d",&marks);
+    if (marks >=90)
+    {
+        printf("grade A");
+    }
+    else if(marks>=75)
+    {
+        printf("Grade B");
+    }
+    else if(marks>=60){
+        printf("Grade C");
+    }
+    else if(marks>=50){
+        printf("Grade D");
+    }
+    else {
+        printf("Grade E");
+    }
+    return 0;
+    
+}
+the output goes--
+enter the marks78
+Grade B
