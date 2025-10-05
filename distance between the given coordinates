@@ -1,0 +1,20 @@
+A Robot needs to find how far it must travel between two points on a 2D-plane .develop a c-program to calculate the straight line distance between the given coordinates
+  the program goes-----
+  #include<stdio.h>
+#include<math.h>
+void main()
+{
+    float x1,y1,x2,y2,distance;
+    printf("enter the first coordinates");
+    scanf("%f %f" ,&x1,&y1);
+    printf("enter the second coordinates");
+    scanf("%f %f",&x2,&y2);
+    distance= sqrt(pow((x2-x1),2)+pow((y2-y1),2));
+    printf("the distance is %f,distance");
+}
+the output-----
+  enter the first coordinates2
+3
+enter the second coordinates1
+2
+the distance is 0.000000,distance
